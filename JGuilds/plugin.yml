@@ -1,0 +1,26 @@
+name: JGuilds
+author: KonarJG
+version: 1.0
+main: com.konarjg.jguilds.Main
+depend:  [TabAPI]
+commands:
+  g:
+    usage: 'Poprawne uzycie: /g'
+    description: Glowna komenda JGuilds!
+  ga:
+    usage: 'Poprawne uzycie: /ga'
+    description: Glowna komenda adminow JGuilds!
+permissions:
+  jguilds.guildadmin.*:
+    description: dostep do wszystkich komend admina jguilds!
+    default: false
+  jguilds.guildadmin:
+    description: dostep do komendy /ga!
+    default: false
+  jguilds.guildadmin.lives:
+    description: dostep do komendy /ga <zycia>!
+    default: false
+  jguilds.guildadmin.lives:
+    description: dostep do komendy /ga reload!
+    default: false
+    

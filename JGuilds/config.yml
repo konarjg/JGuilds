@@ -1,0 +1,16 @@
+#Config pluginu JGuilds
+#Itemy na gildie
+Items:
+- bookshelf 24 0
+- golden_apple 16 0
+- obsidian 32 0
+- anvil 16 0
+- emerald_block 16 0
+- diamond_block 16 0
+ItemsVip:
+- bookshelf 12 0
+- golden_apple 8 0
+- obsidian 16 0
+- anvil 8 0
+- emerald_block 8 0
+- diamond_block 8 0
